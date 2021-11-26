@@ -19,15 +19,19 @@ export default function Save() {
                        </Link>
                     </div>
                     <div className={styles.continue}>
+                    <Link href="/Search/search">
+                       <a>
                         <button>Save</button>
+                        </a>
+                       </Link>
                     </div>
                 </div>
                 <div className={styles.pagination}>
                    <div className={styles.butn}><button></button></div>
-                   <div className={styles.pages}><p>Pages</p></div>
-                    <div className={styles.click}><p>Clicks</p></div>
-                    <div className={styles.page}><p>buttons</p></div>
-                    <div className={styles.btn}><p>Pagination</p></div>
+                   <div className={styles.pages}><button></button></div>
+                    <div className={styles.click}><button></button></div>
+                    <div className={styles.page}><button></button></div>
+                    <div className={styles.btn}><button></button></div>
                 </div>
                 <div className={styles.comment}>
                 <h3 className={styles.title}>Title</h3>
@@ -39,10 +43,6 @@ export default function Save() {
 
             </div>
             </main>
-            {/* <div className={styles.comment}>
-                <h3>Title</h3>
-
-            </div> */}
 
         </div>
     )
