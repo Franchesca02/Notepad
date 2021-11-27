@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
         <meta charset="UTF-8" />
         <meta name="google" content="notranslate" />
@@ -19,7 +19,7 @@ export default function Home() {
           content="consulting,finance,advisor,consultant,business,service,insurance,agency" />
         <meta name="Notepad Application" content="Notepad Application" />
         <title>NotePad</title>
-         </Head>
+      </Head>
 
       <main className={styles.main}>
         <div>
@@ -34,14 +34,14 @@ export default function Home() {
         </div>
         <div className={styles.btn}>
           <Link href="/Add-note/add">
-          <a>
-          <button>Get Started</button>
-          </a>
+            <a>
+              <button>Get Started</button>
+            </a>
           </Link>
         </div>
       </main>
 
-     
+
     </div>
   )
 }

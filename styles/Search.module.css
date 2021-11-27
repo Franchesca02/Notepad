@@ -141,5 +141,71 @@
     background-color: rgb(117, 193, 243);
     color: white;
     font-size: 25px;
-    /* box-shadow: rgb(53, 174, 179) 3px 10px 5px; */
+    box-shadow: rgb(53, 174, 179) 3px 10px 5px;
+  }
+  .btn button:hover{
+    color: rgb(94, 189, 252);
+    background-color: white;
+    width: 7%;
+    height: 50px;
+  }
+
+  @media (max-width: 600px) {
+    .main {
+      width: 85%;
+      margin: 0 auto;
+      position: relative;
+      padding-bottom: 50px;
+      top: 20px;
+    }
+    .mainBody {
+      width: 85%;
+      margin: 0 auto;
+      position: relative;
+      padding-bottom: 10px;
+      top: 20px;
+    }
+    .card1 {
+      width: 95%;
+      margin-bottom: 10px;
+    }
+    .top, .bottom {
+      width: 90%;
+     flex-wrap: wrap;
+      padding-top: 30px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .date {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+    }
+    .btn button{
+      width: 13%;
+      height: 50px;
+      font-size: 20px;
+    }
+    .btn button:hover{
+      color: rgb(94, 189, 252);
+      background-color: white;
+      width: 11%;
+      height: 48px;
+  }
+  .text {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.text h4{
+  font-size: 20px;
+}
+.input {
+  width: 80%;
+  font-size: 16px;
+  padding-left: 5px;
+}
   }

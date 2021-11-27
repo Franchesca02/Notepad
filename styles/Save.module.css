@@ -38,6 +38,19 @@
     color: white;
     font-size: 20px
   }
+  .back button:hover{
+    color: rgb(94, 189, 252);
+    background-color: white;
+    width: 50px;
+    height: 40px;
+    font-size: 23px
+  }
+  .continue button:hover{
+    color: rgb(94, 189, 252);
+    background-color: white;
+    width: 80px;
+    height: 50px;
+  }
   .pagination {
     display: flex;
     margin-top: 15px;
@@ -112,4 +125,59 @@
   .title {
     padding-left: 50px;
     padding-top: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .main {
+      width: 90%;
+      position: relative;
+      top: 50px;
+    }
+    .container {
+      width: 100%;
+    }
+    .back button{
+      width: 50px;
+      height: 40px;
+      font-size: 20px
+    }
+    .continue button{
+      width: 80px;
+      height: 50px;
+      font-size: 18px
+    }
+    .buttons {
+      display: flex;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-top: 10px;
+  }
+  .butn button{
+    background-color: blueviolet;
+    width: 25%;
+    height: 15px;
+  }
+  .pages button{
+    background-color: blue;
+    width: 25%;
+    height: 15px;
+  }
+  .click button{
+    background-color: red;
+    width: 25%;
+    height: 15px;
+  }
+  .page button{
+    background-color: green;
+    width: 25%;
+    height: 15px;
+  }
+  .btn button{
+    background-color: yellow;
+    width: 25%;
+    height: 15px;
+  }
+  .textarea {
+    font-size: 18px;
+  }
   }
